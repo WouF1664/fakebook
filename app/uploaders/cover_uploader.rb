@@ -18,10 +18,6 @@ class CoverUploader < CarrierWave::Uploader::Base
     "missing-cover.jpg"
   end
 
-  def cache_dir
-    "#{Rails.root}/tmp/uploads"
-  end
-
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url(*args)
   #   # For Rails 3.1+ asset pipeline compatibility:
