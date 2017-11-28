@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Fakebook App
 
 From [The Odin Project](https://www.theodinproject.com/lessons/final-project)<br/><br/>
