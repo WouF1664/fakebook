@@ -18,8 +18,8 @@ User.create!(first_name: 'Jean-Claude',
              last_name: 'Van Damne',
              email: 'jeanclaude@vandamne.com',
              about: 'I now truly believe it is impossible for me to make a bad movie.',
-             remote_picture_url: "https://raw.githubusercontent.com/florianmainguy/fakebook/master/app/assets/images/vandamne-picture.jpg", 
-             remote_cover_url: "https://raw.githubusercontent.com/florianmainguy/fakebook/master/app/assets/images/vandamne-cover.jpg",           
+             picture: File.open("app/assets/images/vandamne-picture.jpg"),
+             cover: File.open("app/assets/images/vandamne-cover.jpg"),             
              password: 'kickboxer',
              password_confirmation: 'kickboxer')
 
@@ -27,8 +27,8 @@ User.create!(first_name: 'Chuck',
              last_name: 'Norris',
              email: 'chuck@norris.com',
              about: "I don't initiate violence, I retaliate.",
-             remote_picture_url: "https://raw.githubusercontent.com/florianmainguy/fakebook/master/app/assets/images/chuck-picture.jpeg", 
-             remote_cover_url: "https://raw.githubusercontent.com/florianmainguy/fakebook/master/app/assets/images/chuck-cover.jpg", 
+             picture: File.open("app/assets/images/chuck-picture.jpeg"),
+             remote_cover_net_url: "https://s3.eu-west-2.amazonaws.com/fm-fakebook/chuck-cover.jpg", 
              password: 'deltaforce',
              password_confirmation: 'deltaforce')
 
@@ -46,8 +46,8 @@ User.create!(first_name: 'Chuck',
                last_name: last_name,
                email: email,
                about: about,
-               remote_picture_url: picture,
-               remote_cover_url: cover,
+               remote_picture_net_url: picture,
+               remote_cover_net_url: cover,
                password: password,
                password_confirmation: password)
 end

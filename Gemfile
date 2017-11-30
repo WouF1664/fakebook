@@ -12,6 +12,7 @@ gem 'font-awesome-rails'
 gem 'carrierwave',             '1.1.0'
 gem 'mini_magick',             '4.7.0'
 gem 'fog',                     '1.40.0'
+gem 'carrierwave_direct'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

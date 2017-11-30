@@ -5,14 +5,11 @@ class CoverUploader < CarrierWave::Uploader::Base
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
-  storage :file
+  include CarrierWaveDirect::Uploader
   # storage :fog
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
-  def store_dir
-    "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
-  end
 
   def default_url(*args)
     "https://raw.githubusercontent.com/florianmainguy/fakebook/master/app/assets/images/missing-cover.jpg"
