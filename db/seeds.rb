@@ -28,7 +28,7 @@ User.create!(first_name: 'Chuck',
              email: 'chuck@norris.com',
              about: "I don't initiate violence, I retaliate.",
              picture: File.open("app/assets/images/chuck-picture.jpeg"),
-             remote_cover_net_url: "https://s3.eu-west-2.amazonaws.com/fm-fakebook/chuck-cover.jpg", 
+             cover: File.open("app/assets/images/chuck-cover.jpg"), 
              password: 'deltaforce',
              password_confirmation: 'deltaforce')
 
