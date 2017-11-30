@@ -31,7 +31,6 @@ User.create!(first_name: 'Chuck',
              cover: File.open("app/assets/images/chuck-cover.jpg"), 
              password: 'deltaforce',
              password_confirmation: 'deltaforce')
-end
 
 15.times do |index|
   password = Faker::Internet.password
