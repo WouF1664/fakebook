@@ -46,8 +46,8 @@ User.create!(first_name: 'Chuck',
                last_name: last_name,
                email: email,
                about: about,
-               remote_picture_net_url: picture,
-               remote_cover_net_url: cover,
+               remote_picture_url: picture,
+               remote_cover_url: cover,
                password: password,
                password_confirmation: password)
 end
