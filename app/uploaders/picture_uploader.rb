@@ -15,6 +15,8 @@ class PictureUploader < CarrierWave::Uploader::Base
     "https://raw.githubusercontent.com/florianmainguy/fakebook/master/app/assets/images/missing-picture.png"
   end
 
+  alias_method :extension_white_list, :extension_whitelist
+
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url(*args)
   #   # For Rails 3.1+ asset pipeline compatibility:
