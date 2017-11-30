@@ -12,7 +12,7 @@ class CoverUploader < CarrierWave::Uploader::Base
   # This is a sensible default for uploaders that are meant to be mounted:
 
   def default_url(*args)
-    "https://raw.githubusercontent.com/florianmainguy/fakebook/master/app/assets/images/missing-cover.jpg"
+    "app/assets/images/missing-cover.jpg"
   end
 
   alias_method :extension_white_list, :extension_whitelist
