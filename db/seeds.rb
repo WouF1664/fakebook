@@ -52,6 +52,7 @@ User.create!(first_name: 'Chuck',
                password_confirmation: password)
 end
 
+p "Creatiooon"
 15.times do |index|
   password = Faker::Internet.password
   first_name = Faker::Name.first_name
@@ -70,6 +71,7 @@ end
                #remote_cover_url: cover,
                password: password,
                password_confirmation: password)
+  p "Created #{index} user"
 end
 p "Created #{User.count} users"
 
