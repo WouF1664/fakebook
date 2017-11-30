@@ -32,7 +32,7 @@ User.create!(first_name: 'Chuck',
              password: 'deltaforce',
              password_confirmation: 'deltaforce')
 
-15.times do |index|
+1.times do |index|
   password = Faker::Internet.password
   first_name = Faker::Name.first_name
   last_name = Faker::Name.last_name
@@ -48,6 +48,26 @@ User.create!(first_name: 'Chuck',
                about: about,
                remote_picture_url: picture,
                remote_cover_url: cover,
+               password: password,
+               password_confirmation: password)
+end
+
+15.times do |index|
+  password = Faker::Internet.password
+  first_name = Faker::Name.first_name
+  last_name = Faker::Name.last_name
+  full_name = first_name + "." + last_name
+  email = Faker::Internet.email(full_name)
+  about = Faker::Lorem.sentence
+  #picture = Faker::LoremPixel.image("400x400")
+  #cover = Faker::LoremPixel.image("700x500")
+
+  User.create!(first_name: first_name,
+               last_name: last_name,
+               email: email,
+               about: about,
+               #remote_picture_url: picture,
+               #remote_cover_url: cover,
                password: password,
                password_confirmation: password)
 end
