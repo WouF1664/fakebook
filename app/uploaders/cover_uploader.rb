@@ -15,7 +15,7 @@ class CoverUploader < CarrierWave::Uploader::Base
   # This is a sensible default for uploaders that are meant to be mounted:
 
   def default_url(*args)
-    "/app/assets/images/missing-cover.jpg"
+    "missing-cover.jpg"
   end
 
   alias_method :extension_white_list, :extension_whitelist
