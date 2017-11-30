@@ -50,7 +50,6 @@ User.create!(first_name: 'Chuck',
                remote_cover_url: cover,
                password: password,
                password_confirmation: password)
-  p "Created #{index} user"
 end
 p "Created #{User.count} users"
 
