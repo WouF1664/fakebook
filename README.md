@@ -46,6 +46,13 @@ password: deltaforce
 ## Screenshots
 
 ![register](docs/register.png?raw=true)
+
 ![timeline](docs/timeline.png?raw=true)
+
 ![post](docs/post.png?raw=true)
-![about](docs/about.png?raw=true)![index](docs/index.png?raw=true)
+
+<p align="center">
+  <img width="460" src="docs/post.png">
+</p>
+
+![index](docs/index.png?raw=true)
