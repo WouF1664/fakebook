@@ -18,7 +18,7 @@ email: chuck@norris.com
 password: deltaforce
 ```
 
-[friends](docs/friends.png?raw=true)
+![friends](docs/friends.png?raw=true)
 
 ## Features
 
@@ -45,8 +45,8 @@ password: deltaforce
 
 ## Screenshots
 
-[register](docs/register.png?raw=true)
-[timeline](docs/timeline.png?raw=true)
-[post](docs/post.png?raw=true)
-[about](docs/about.png?raw=true)
-[index](docs/index.png?raw=true)
+![register](docs/register.png?raw=true)
+![timeline](docs/timeline.png?raw=true)
+![post](docs/post.png?raw=true)
+![about](docs/about.png?raw=true)
+![index](docs/index.png?raw=true)
