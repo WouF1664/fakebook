@@ -56,11 +56,11 @@ password: deltaforce
 
 ### About page on smartphone
 <p align="center">
-  <img width="460" src="docs/about.png">
+  <img width="300" src="docs/about.png">
 </p>
 
 ### Search page on smartphone
 <p align="center">
-  <img width="460" src="docs/index.png">
+  <img width="300" src="docs/index.png">
 </p>
 
