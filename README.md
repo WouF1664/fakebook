@@ -45,14 +45,22 @@ password: deltaforce
 
 ## Screenshots
 
+### Sign-in page
 ![register](docs/register.png?raw=true)
 
+### Timeline
 ![timeline](docs/timeline.png?raw=true)
 
+### Post
 ![post](docs/post.png?raw=true)
 
+### About page on smartphone
 <p align="center">
-  <img width="460" src="docs/post.png">
+  <img width="460" src="docs/about.png">
 </p>
 
-![index](docs/index.png?raw=true)
+### Search page on smartphone
+<p align="center">
+  <img width="460" src="docs/index.png">
+</p>
+
