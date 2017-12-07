@@ -2,7 +2,7 @@
 
 A social network clone built with Ruby on Rails. View it on [Heroku](https://fm-fakebook.herokuapp.com/).
 
-Explore the app by logging in with one of theprepopulated accounts, or start from scratch with a blank guest account.
+Explore the app by logging in with one of the prepopulated accounts, or start from scratch with a blank guest account.
 
 **Prepopulated account logins:**
 
@@ -18,27 +18,35 @@ email: chuck@norris.com
 password: deltaforce
 ```
 
+[friends](docs/friends.png?raw=true)
+
 ## Features
 
-### Profile Information
+- Users must sign in to see anything except the sign in page.
+- Users can send friend requests to other users.
+- A user must accept the friend request to become friends.
+- The friend request shows up in the notifications section of a user’s navbar.
+- Users can create posts.
+- Users can comment on posts.
+- Users can like posts and comments.
+- Posts are displayed in a timeline style, with all recent posts from the current user and his friends.
+- Users can upload a profile picture and a cover picture.
 
 
-### Finding and Adding Friends
-
-
-### Posting and Commenting
-
-
-### Photos
-
-com/blackwright/tracebook/blob/master/screenshots/photos.jpg?raw=true)
-
-
-### Technical Notes
+## Technical Notes
 
 - Postgresql database seeded with Faker gem.
+- User sign-in uses the Devise gem.
 - Posts, comments, and likes processed through AJAX request.
 - Utilizes flash notices from native Rails and AJAX.
-- Image attachments with Carrierwave gem, hosted on Amazon S3.
-- User search handled through SQL query.
+- Image attachments with CarrierWave gem, hosted on Amazon S3.
+- Responsive layout
 - SASS styling with Bootstrap components.
+
+## Screenshots
+
+[register](docs/register.png?raw=true)
+[timeline](docs/timeline.png?raw=true)
+[post](docs/post.png?raw=true)
+[about](docs/about.png?raw=true)
+[index](docs/index.png?raw=true)
