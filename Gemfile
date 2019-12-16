@@ -10,7 +10,7 @@ gem 'devise'
 gem 'pg'
 gem 'font-awesome-rails'
 gem 'carrierwave',             '1.1.0'
-gem 'mini_magick',             '4.7.0'
+gem 'mini_magick',             '4.9.4'
 gem 'fog',                     '1.40.0'
 gem 'carrierwave_direct'
 # Use SCSS for stylesheets
